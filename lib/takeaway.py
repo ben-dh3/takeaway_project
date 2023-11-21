@@ -7,7 +7,6 @@ class Takeaway:
         ]
         self.order_list = []
 
-
     def order(self, dish, quantity):
         for i in range(0,len(self.menu)):
             for key,value in self.menu[i].items():
